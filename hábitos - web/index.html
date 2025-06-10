@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>habits</title>
+</head>
+<body>
+    <section>
+        <h1> Hábitos Web</h1>
+    </section>
+
+    <section>
+         <ul class="habibi">
+        
+        </ul>
+    
+     <div id="calendar-container">
+         <div id="calendar"></div>
+     </div>
+    </section>
+    <div class="luizinho">
+    <button onclick="mostrarInput()"> Adicionar Hábito</button>
+    <div id="inputArea" style="display: none;">
+    <input type="text" id="novoHabito" placeholder="Digite seu hábito">
+    <button class="bot-salvar" onclick="adicionarHabito()">Salvar</button>
+  </div>
+  <ul id="listaHabitos"></ul>
+</div>
+    <div id="configPanel">
+  <h3>Personalizar</h3>
+  <label>Fonte:
+    <select id="fontSelect">
+      <option value="Arial">Arial</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Georgia">Georgia</option>
+      <option value="Comic Sans MS">Comic Sans</option>
+    </select>
+  </label>
+
+  <label>Cor de fundo:
+    <input type="color" id="bgColorPicker">
+  </label>
+
+  <label>Cor do texto:
+    <input type="color" id="textColorPicker">
+  </label>
+
+  <button class="cuzin"  onclick="aplicarPersonalizacao()">Salvar</button>
+</div>
+
+    
+</body>
+</html>

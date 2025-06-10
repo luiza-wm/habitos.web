@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #9e182b;
+    color: #fff;
+    width: 1535px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-size: 86px;
+}
+.habibi {
+    margin-left: 5px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+button {
+    padding: 0px;
+    background-color: #FFF5E4;
+    size: 150px;
+    border-radius: 999px; 
+    padding: 20px 200px; 
+}
+
+#calendar-container {
+    position: absolute;
+    top: 130px;
+    right: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#calendar table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9cbd6;
+}
+
+#calendar th, #calendar td {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+}
+
+#calendar .today {
+    background-color: #f9cbd6;
+}
+
+.luizinho {
+  border: none;
+  border-radius: 999px;
+  padding: 10px 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center; 
+  margin-top: 40px;    
+  position:fixed; 
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000; 
+  padding: 20px;
+  border-radius: 20px;
+ 
+}
+
+
+.luizinho:hover {
+    cursor: pointer;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#listaHabitos li {
+  margin-top: 10px;
+  background-color: #eee;
+  padding: 10px 20px;
+  border-radius: 999px;
+  list-style: none;
+}
+.habito-btn {
+  background-color: #FFE3E3;
+  border-radius: 999px;
+  padding: 20px 200px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bot-salvar {
+    padding: 8px 20px;
+  font-size: 14px;
+  background-color: #a4192f;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.bot-salvar:hover {
+  background-color: #821528;
+}
+
+.habito-btn:hover {
+  background-color: #f9cbd6;
+}
+
+.habito-btn {
+  background-color: #FFE3E3;
+  border-radius: 999px;
+  padding: 20px 100px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.habito-btn:hover {
+  background-color: #f9cbd6;
+}
+
+.habibi button {
+  margin: 5px 0;
+}
+
+.habito-btn.ativo {
+  background-color: #9e182b;
+  color: white;
+}
+td.marcado {
+  background-color: #a4192f;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+#configPanel {
+  position: fixed;
+  top: 450px;
+  right: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 10px;
+  z-index: 999;
+  font-size: 14px;
+  width: 270px;
+}
+
+body {
+  transition: all 0.3s ease;
+}
+
+.cuzin{
+  background-color: #FFE3E3;
+  border-radius: 999px;
+  padding: 20px 80px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.cuzin:hover {
+    background-color: #821528;
+}
